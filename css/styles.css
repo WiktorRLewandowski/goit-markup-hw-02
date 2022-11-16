@@ -53,6 +53,7 @@ body {
 .link[href="#"] {
   color: var(--brand-clr);
 }
+
 [type="button"]:hover {
   cursor: pointer;
 }
@@ -62,6 +63,9 @@ body {
 }
 
 /* logo styling */
+.logo {
+  display: inline-block;
+}
 
 .nav-bar .logo,
 .logo {
@@ -131,13 +135,17 @@ body {
   background-color: var(--brand-clr);
   border: none;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   color: var(--button-font-clr);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   padding: 0.5rem 2rem;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* our advantages */

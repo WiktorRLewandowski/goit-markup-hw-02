@@ -157,6 +157,7 @@ body {
   text-transform: uppercase;
 }
 .advantages .text {
+  color: var(--secondary-font-clr);
   font-size: 14px;
   line-height: 1.71;
 }
